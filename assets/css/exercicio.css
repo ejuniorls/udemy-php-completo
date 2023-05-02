@@ -1,17 +1,14 @@
 body.exercicio {
     grid-template-rows: 120px 60px 1fr 60px;
     grid-template-areas:
-            "cabecalho"
-            "navegacao"
-            "principal"
-            "rodape"
+        "cabecalho"
+        "navegacao"
+        "principal"
+        "rodape";
 }
 
 .principal {
-    grid-area: principal;
     height: calc(100vh - 240px);
-    background-color: #f0f0f0;
-    padding: 20px;
 }
 
 .navegacao {
@@ -19,22 +16,26 @@ body.exercicio {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #555555;
+    background-color: #555;
 }
 
 .navegacao > a {
     text-decoration: none;
-    color: #ffffff;
+    color: #FFF;
     font-weight: 300;
     font-size: 1.3rem;
-    background-color: rgb(33, 150, 243);
+    background-color: #2196f3;
     padding: 5px 10px;
     margin-right: 10px;
 }
 
-.navegacao > a.verde { background-color: #4caf50 }
+.navegacao > a.verde {
+    background-color: #4CAF50;
+}
 
-.navegacao > a.vermelho { background-color: #f44336 }
+.navegacao > a.vermelho {
+    background-color: #F44336;
+}
 
 .conteudo {
     font-size: 2rem;
