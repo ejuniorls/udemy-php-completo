@@ -1,20 +1,18 @@
 <div class="titulo">Integração CSS</div>
 
 <h1 center>
-    <?php
-    echo 'Olá';
-    echo '<small>';
-    echo ' Mundo!';
-    echo '</small>';
-    ?>
+<?php 
+echo 'Olá';
+echo '<small>';
+echo ' Mundo!';
+echo '</small>';
+?>
 </h1>
 
 <?= "<div center azul>Outra forma de me 'expressar'!</div>" ?>
 
 <br>
-<div center>
-    <button dobro><?= "Legal" ?></button>
-</div>
+<div center><button dobro><?= "Legal" ?></button></div>
 
 <style>
     button {
@@ -30,10 +28,8 @@
         justify-content: center;
     }
 
-    <?= "[azul]" ?>
-    {
-        color: #4286f4
-    ;
+    <?= "[azul]" ?> {
+        color: #4286f4;
     }
 
     [dobro] {
