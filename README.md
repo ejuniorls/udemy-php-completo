@@ -46,6 +46,19 @@ Grande abraço e bons estudos!!
 
 * 0.1
     * Initial Release
+* 1.2
+  * Seção 2: Revisão HTML & CSS 
+* 1.3
+  * Seção 3: Integrando PHP com HTML & CSS
+* 1.4
+  * Seção 4: Tipos Básicos Curso PHP
+* 1.5
+  * Seção 5: Variáveis
+* 1.6
+  * Seção 6: Estruturas de Controle #01
+* 1.7
+  * Seção 7: Arrays
+
 
 ## Licensa
 
