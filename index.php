@@ -14,7 +14,7 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
-                <div class="modulo verde-escuro">
+            <div class="modulo verde-escuro">
                     <h3>6. Repetições</h3>
                     <ul>
                         <li>
